@@ -1,8 +1,8 @@
 {
-  "name": "react-simple-hooks",
+  "name": "react-simple-ex-hooks",
   "version": "1.0.0",
   "main": "index.ts",
-  "repository": "git@github.com:aleksandar9999a/react-simple-hooks.git",
+  "repository": "git@github.com:aleksandar9999a/react-simple-ex-hooks.git",
   "author": "Alexander Todorov <aleksandar9999a@gmail.com>",
   "license": "MIT",
   "scripts": {

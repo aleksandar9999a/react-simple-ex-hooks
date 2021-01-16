@@ -1,4 +1,4 @@
-# React Simple Hooks
+# React Simple Ex Hooks
 
 <p>
 A library that aims to break down the useEffect into smaller, simple functions.
@@ -12,13 +12,13 @@ How to install
 </h2>
 
 ```javascript
-npm i react-simple-hooks
+npm i react-simple-ex-hooks
 ```
 
 or
 
 ```javascript
-yarn add react-simple-hooks
+yarn add react-simple-ex-hooks
 ```
 
 <br>
