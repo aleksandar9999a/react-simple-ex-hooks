@@ -1,4 +1,14 @@
 import { useEffect } from 'react';
 
-export function useUpdate () {
+/**
+ * Use Update
+ *
+ * @param {Function} fn
+ *
+ * @returns {Void}
+ */
+export function useUpdate (fn: Function) {
+  useEffect(() => {
+    fn()
+  }, [])
 }

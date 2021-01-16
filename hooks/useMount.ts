@@ -1,4 +1,14 @@
 import { useEffect } from 'react';
 
-export function useMount () {
+/**
+ * Use Mount
+ *
+ * @param {Function} fn
+ *
+ * @returns {Void}
+ */
+export function useMount (fn: Function) {
+  useEffect(() => {
+    fn()
+  })
 }

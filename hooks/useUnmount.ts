@@ -1,4 +1,16 @@
 import { useEffect } from 'react';
 
-export function useUnmount () {
+/**
+ * Use Unmount
+ *
+ * @param {Function} fn
+ *
+ * @returns {Void}
+ */
+export function useUnmount (fn: Function) {
+  useEffect(() => {
+    return () => {
+      fn()
+    }
+  })
 }
