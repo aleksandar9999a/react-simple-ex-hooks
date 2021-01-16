@@ -10,5 +10,5 @@ import { useEffect } from 'react';
 export function useUpdate (fn: Function) {
   useEffect(() => {
     fn()
-  }, [])
+  })
 }

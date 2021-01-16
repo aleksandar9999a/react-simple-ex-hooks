@@ -10,5 +10,5 @@ import { useEffect } from 'react';
 export function useMount (fn: Function) {
   useEffect(() => {
     fn()
-  })
+  }, [])
 }

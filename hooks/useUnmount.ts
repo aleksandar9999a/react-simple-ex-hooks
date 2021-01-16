@@ -12,5 +12,5 @@ export function useUnmount (fn: Function) {
     return () => {
       fn()
     }
-  })
+  }, [])
 }
