@@ -5,6 +5,9 @@
   "repository": "git@github.com:aleksandar9999a/react-simple-hooks.git",
   "author": "Alexander Todorov <aleksandar9999a@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
   "dependencies": {
     "react": "^17.0.1",
     "typescript": "^4.1.3"
